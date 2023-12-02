@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools >= 61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AoC_2023"
+version = "0.0.0"
+description = "Advent of Code 2023"
+authors = [
+  { name="Jack Atkinson", email="jack.atkinson1000@gmail.com" },
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GPL3.0",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+]
+dependencies = [
+    "numpy>=1.20.0",
+]
+
+[project.optional-dependencies]
+test = [
+]
+lint = [
+    "black>=22.12.0",
+    "pylint",
+    "mypy>=1.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jatkinson1000/AoC-2023"
+"Bug Tracker" = "https://github.com/jatkinson1000/AoC-2023/Issues"
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
+namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
+
+[tool.mypy]
+warn_unused_configs = true
+plugins = ["numpy.typing.mypy_plugin"]
