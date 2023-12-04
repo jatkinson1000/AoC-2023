@@ -7,4 +7,7 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
   - Extracting numbers from more mangled strings and processing
 - Day 3 :sparkles: :sparkles:
   - Extracting numbers based on adjacent symbols.  
-    This one was hard. The approach and code is disgusting could be significantly improved.
+    This one was hard. The approach and code is disgusting and could be significantly improved.
+- Day 4 :sparkles: :sparkles:
+  - Recursion.  
+    This could probably be done more efficiently with fewer repeated checks with a little thought.
