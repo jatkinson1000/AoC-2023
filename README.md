@@ -19,8 +19,13 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
     Stepping back and trying to be clever was really difficult.  
     Extending a list whilst actively iterating over it doesn't feel right at all!  
     Given up on perfect docstrings.
+- Day 6 :sparkles: :sparkles:
+  - Calculations.  
+    This one even has tests! :O Nice in comparison to yesterday.  
+    Could probably have used bisection or quadratic formula if wanting to be clever.
 
 ### What did I learn?
 
 - Getting better at thinking more abstract instead of brute force. Maybe?
 - Use `strip()` when pulling in text data!
+- Use `range(a, b)` to iterate over things without storing every instance!
