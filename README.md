@@ -28,3 +28,4 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 
 - Getting better at thinking more abstract instead of brute force. Maybe?
 - Use `strip()` when pulling in text data!
+- Use `range(a, b)` to iterate over things without storing every instance!
