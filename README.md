@@ -11,3 +11,7 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Day 4 :sparkles: :sparkles:
   - Recursion.  
     This could probably be done more efficiently with fewer repeated checks with a little thought.
+- Day 5 :sparkles: :sparkles:
+  - Calculations.  
+    This one even has tests! :O Nice in comparison to yesterday.  
+    Could probably have used bisection or quadratic formula if wanting to be clever.
