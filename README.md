@@ -23,9 +23,15 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
   - Calculations.  
     This one even has tests! :O Nice in comparison to yesterday.  
     Could probably have used bisection or quadratic formula if wanting to be clever.
+- Day 7 :sparkles: :sparkles:
+  - Calculations.  
+    String processing and complex (well more than most basic) sorting.
+
 
 ### What did I learn?
 
 - Getting better at thinking more abstract instead of brute force. Maybe?
 - Use `strip()` when pulling in text data!
 - Use `range(a, b)` to iterate over things without storing every instance!
+- Use `sort()` to sort in place, and `sorted()` to return sorted list.
+- `sorted()` can be made more elaborate (like pandas) through the use of a `lambda`.
