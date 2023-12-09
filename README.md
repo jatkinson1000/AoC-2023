@@ -26,6 +26,10 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Day 7 :sparkles: :sparkles:
   - Calculations.  
     String processing and complex (well more than most basic) sorting.
+- Day 8 :sparkles: :sparkles:
+  - Calculating path lengths through nodes and overlapping cycles.  
+    Solution can be found from making more general asumption than problem states >:(.  
+    Wasn't obvious to me I feel.
 
 
 ### What did I learn?
