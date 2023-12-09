@@ -30,6 +30,8 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
   - Calculating path lengths through nodes and overlapping cycles.  
     Solution can be found from making more general asumption than problem states >:(.  
     Wasn't obvious to me I feel.
+- Day 9 :sparkles: :sparkles:
+  - Sequences.
 
 
 ### What did I learn?
