@@ -45,5 +45,5 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Use `sort()` to sort in place, and `sorted()` to return sorted list.
 - `sorted()` can be made more elaborate (like pandas) through the use of a `lambda`.
 - Double and nested list comprehensions can be useful `[[i for i in j] for j in k]` or `[i for j in k for i in j]`.
-- 2D nested lists are indexed [j][i], not [i][j] (same as numpy?) which caused me some bugs/loss of time and made me sad.
+- 2D nested lists are indexed `[j][i]`, not `[i][j]` (same as numpy?) which caused me some bugs/loss of time and made me sad.
 - As problems get harder doing part one 'properly'/'completely'/'verbosely' sets you up well for part two.
