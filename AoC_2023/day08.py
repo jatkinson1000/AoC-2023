@@ -49,8 +49,8 @@ def path_length(n, d, start, part2=False):
 
 if __name__ == "__main__":
     # Part 1
-    dirs, nodes, map = process_input(read_file("data/day8.dat"))
-    # dirs, nodes, map = process_input(read_file("data/day8.test"))
+    dirs, nodes, map = process_input(read_file("data/day08.dat"))
+    # dirs, nodes, map = process_input(read_file("data/day08.test"))
 
     # print(dirs)
     # print(nodes)

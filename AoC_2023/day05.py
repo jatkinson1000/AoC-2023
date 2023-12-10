@@ -69,7 +69,7 @@ def track_one_map(bounds_in, maps):
 
 if __name__ == "__main__":
     # Extract lines from day 4 file
-    with open("data/day5.dat", encoding="utf8") as f:
+    with open("data/day05.dat", encoding="utf8") as f:
         lines = f.readlines()
 
     # lines = ["seeds: 79 14 55 13\n",

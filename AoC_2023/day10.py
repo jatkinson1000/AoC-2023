@@ -154,9 +154,9 @@ if __name__ == "__main__":
     # Get inputs
     map, x, y = process_input(read_file("data/day10.dat"))
     # map, x, y = process_input(read_file("data/day10.test"))
-    # map, x, y = process_input(read_file("data/day10.test2"))
-    # map, x, y = process_input(read_file("data/day10.test3"))
-    map, x, y = process_input(read_file("data/day10.test4"))
+    # map, x, y = process_input(read_file("data/day10.test_2"))
+    # map, x, y = process_input(read_file("data/day10.test_3"))
+    map, x, y = process_input(read_file("data/day10.test_4"))
 
     # Convert to numpy array to get a nice printout to terminal
     # print(numpy.asarray(map))

@@ -45,8 +45,8 @@ def extend_seq(s):
 
 
 if __name__ == "__main__":
-    # seqs = process_input(read_file("data/day9.dat"))
-    seqs = process_input(read_file("data/day9.test"))
+    seqs = process_input(read_file("data/day09.dat"))
+    # seqs = process_input(read_file("data/day09.test"))
 
     # print(seqs)
 

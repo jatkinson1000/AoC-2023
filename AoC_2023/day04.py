@@ -114,7 +114,7 @@ def card_score_2(win, card):
 
 if __name__ == "__main__":
     # Extract lines from day 4 file
-    with open("data/day4.dat", encoding="utf8") as f:
+    with open("data/day04.dat", encoding="utf8") as f:
         lines = f.readlines()
 
     # lines = ["Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53\n",

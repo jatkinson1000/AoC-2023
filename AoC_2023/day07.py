@@ -109,8 +109,8 @@ def get_rank(c: list[list[int]], st: list[int], b: list[int]) -> list:
 
 if __name__ == "__main__":
     # Part 1
-    cards, bid = process_input(read_file("data/day7.dat"))
-    # cards, bid = process_input(read_file("data/day7.test"))
+    cards, bid = process_input(read_file("data/day07.dat"))
+    # cards, bid = process_input(read_file("data/day07.test"))
 
     strength = get_strength_all(cards)
 
@@ -123,8 +123,8 @@ if __name__ == "__main__":
     print(f"Part one answer is {ans_one}")
 
     # Part 2
-    cards, bid = process_input(read_file("data/day7.dat"), part2=True)
-    # cards, bid = process_input(read_file("data/day7.test"), part2=True)
+    cards, bid = process_input(read_file("data/day07.dat"), part2=True)
+    # cards, bid = process_input(read_file("data/day07.test"), part2=True)
 
     strength_2 = get_strength_all(cards)
 

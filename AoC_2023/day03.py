@@ -58,7 +58,7 @@ def get_num(chars, i, j):
 
 if __name__ == "__main__":
     # Extract lines from day 3 file
-    with open("data/day3.dat", encoding="utf8") as f:
+    with open("data/day03.dat", encoding="utf8") as f:
         lines = f.readlines()
 
     # Example input

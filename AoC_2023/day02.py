@@ -97,7 +97,7 @@ def min_cubes_reqd(game):
 
 if __name__ == "__main__":
     # Extract lines from day 2 file
-    with open("data/day2.dat", encoding="utf8") as f:
+    with open("data/day02.dat", encoding="utf8") as f:
         lines = f.readlines()
 
     # Extract games from lines

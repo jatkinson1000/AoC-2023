@@ -83,7 +83,7 @@ def extract_num_two(input: str) -> int:
 
 if __name__ == "__main__":
     # Extract lines from day 1 file
-    with open("data/day1.dat") as f:
+    with open("data/day01.dat") as f:
         lines = f.readlines()
 
     # Answer for part 1

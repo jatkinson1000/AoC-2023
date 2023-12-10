@@ -57,7 +57,7 @@ def n_ways(time: int, rec: int) -> int:
 
 if __name__ == "__main__":
     # Dummy data
-    t, d = process_input(read_file("data/day6.test"))
+    t, d = process_input(read_file("data/day06.test"))
 
     # print(t, d)
     nways = [n_ways(ti, ri) for (ti, ri) in zip(t, d)]
@@ -70,7 +70,7 @@ if __name__ == "__main__":
     assert np.prod(np.asarray(nways)) == 288
 
     # Real code
-    t, d = process_input(read_file("data/day6.dat"))
+    t, d = process_input(read_file("data/day06.dat"))
 
     # Get ways for all input races as list
     nways = [n_ways(ti, ri) for (ti, ri) in zip(t, d)]
