@@ -20,8 +20,8 @@ def process_input(raw_lines):
     """
     m = [[c for c in line] for line in raw_lines]
 
-    xc = [[xi for xi in range(len(raw_lines[0]))] for yi in range(len(raw_lines))]
-    yc = [[yi for xi in range(len(raw_lines[0]))] for yi in range(len(raw_lines))]
+    xc = [[xi for xi in range(len(raw_lines[0]))] for _ in range(len(raw_lines))]
+    yc = [[yi for _ in range(len(raw_lines[0]))] for yi in range(len(raw_lines))]
 
     return m, xc, yc
 
