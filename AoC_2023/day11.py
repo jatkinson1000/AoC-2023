@@ -68,8 +68,8 @@ if __name__ == "__main__":
     # Part 1
     ans_one = 0
 
-    for c1 in gc:
-        for c2 in gc:
+    for ci, c1 in enumerate(gc):
+        for c2 in gc[ci + 1 :]:
             xd = dists[0][min(c1[0], c2[0]) : max(c1[0], c2[0])]
             # print(c1, c2, sum([int(x) for x in xd]))
             ans_one += sum([int(x) for x in xd])
@@ -78,7 +78,7 @@ if __name__ == "__main__":
             # print(c1, c2, sum([int(y) for y in yd]))
             ans_one += sum([int(y) for y in yd])
 
-    print(f"Part one answer is {ans_one//2}")
+    print(f"Part one answer is {ans_one}")
 
     # Part 2
     ans_two = 0
@@ -86,8 +86,8 @@ if __name__ == "__main__":
     # gals, gc, dists = process_input(read_file("data/day11.test"), e=10)
     # gals, gc, dists = process_input(read_file("data/day11.test"), e=100)
 
-    for c1 in gc:
-        for c2 in gc:
+    for ci, c1 in enumerate(gc):
+        for c2 in gc[ci + 1 :]:
             xd = dists[0][min(c1[0], c2[0]) : max(c1[0], c2[0])]
             # print(c1, c2, sum([int(x) for x in xd]))
             ans_two += sum([int(x) for x in xd])
@@ -96,4 +96,4 @@ if __name__ == "__main__":
             # print(c1, c2, sum([int(y) for y in yd]))
             ans_two += sum([int(y) for y in yd])
 
-    print(f"Part two answer is {ans_two//2}")
+    print(f"Part two answer is {ans_two}")
