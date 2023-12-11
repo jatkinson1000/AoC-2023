@@ -35,11 +35,14 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Day 10 :sparkles: :sparkles:
   - Maps. Slow on part 1 but set me up well for part 2. 4th overall in RSE  
     Lost a lot of time in part 2 debugging code that was 'correct' before realising I need to replace `S`. Then did manually for solution before adding general function later.
+- Day 11 :sparkles: :sparkles:
+  - Maps with 'expanding' distance. Part 2 required refactor after part 1 leads on a red herring. t ~ 1h. 5th overall in RSE  
 
 
 ### What did I learn?
 
 - Getting better at thinking more abstract instead of brute force. Maybe?
+- List comprehensions are king.
 - Use `strip()` when pulling in text data!
 - Use `range(a, b)` to iterate over things without storing every instance!
 - Use `sort()` to sort in place, and `sorted()` to return sorted list.
