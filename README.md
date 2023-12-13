@@ -37,6 +37,8 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
     Lost a lot of time in part 2 debugging code that was 'correct' before realising I need to replace `S`. Then did manually for solution before adding general function later.
 - Day 11 :sparkles: :sparkles:
   - Maps with 'expanding' distance. Part 2 required refactor after part 1 leads on a red herring. t ~ 1h. 5th overall in RSE  
+- Day 12 :sparkles: :sparkles:
+  - Part 2 was really hard. Had to get a hint to implement the dynamic programming aspect. A useful learning opportunity.
 
 
 ### What did I learn?
@@ -50,3 +52,5 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Double and nested list comprehensions can be useful `[[i for i in j] for j in k]` or `[i for j in k for i in j]`.
 - 2D nested lists are indexed `[j][i]`, not `[i][j]` (same as numpy?) which caused me some bugs/loss of time and made me sad.
 - As problems get harder doing part one 'properly'/'completely'/'verbosely' sets you up well for part two.
+- Dynamic programming: store function inputs and returns in a hash table for quick lookup.  
+  Can be done in python using `@cache` decorator from `functools`
