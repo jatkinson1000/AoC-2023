@@ -39,6 +39,8 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
   - Maps with 'expanding' distance. Part 2 required refactor after part 1 leads on a red herring. t ~ 1h. 5th overall in RSE  
 - Day 12 :sparkles: :sparkles:
   - Part 2 was really hard. Had to get a hint to implement the dynamic programming aspect. A useful learning opportunity.
+- Day 13 :sparkles: :sparkles:
+  - Bad/lazy variable naming caused bug that I missed leading me to seek more and more elaborate interpretations to the problem. Would likely have been avoided with more care/testing. As a result the end product is somewhat Frankencode.
 
 
 ### What did I learn?
@@ -54,3 +56,4 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - As problems get harder doing part one 'properly'/'completely'/'verbosely' sets you up well for part two.
 - Dynamic programming: store function inputs and returns in a hash table for quick lookup.  
   Can be done in python using `@cache` decorator from `functools`
+- Strings can be accessed like lists but don't suffer from out of bounds errors - just return `''` if longer than string! Can be exploited to avoid termination due to OoB.
