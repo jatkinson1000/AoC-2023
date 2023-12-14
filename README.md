@@ -33,15 +33,17 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Day 9 :sparkles: :sparkles:
   - Sequences.
 - Day 10 :sparkles: :sparkles:
-  - Maps. Slow on part 1 but set me up well for part 2. 4th overall in RSE  
+  - Maps. Slow on part 1 but set me up well for part 2. 4th overall in RSE.  
     Lost a lot of time in part 2 debugging code that was 'correct' before realising I need to replace `S`. Then did manually for solution before adding general function later.
 - Day 11 :sparkles: :sparkles:
-  - Maps with 'expanding' distance. Part 2 required refactor after part 1 leads on a red herring. t ~ 1h. 5th overall in RSE  
+  - Maps with 'expanding' distance. Part 2 required refactor after part 1 leads on a red herring. t ~ 1h. 5th overall in RSE.  
 - Day 12 :sparkles: :sparkles:
   - Part 2 was really hard. Had to get a hint to implement the dynamic programming aspect. A useful learning opportunity.
 - Day 13 :sparkles: :sparkles:
   - Bad/lazy variable naming caused bug that I missed leading me to seek more and more elaborate interpretations to the problem. Would likely have been avoided with more care/testing. As a result the end product is somewhat Frankencode.
-
+- Day 14 :sparkles: :sparkles:
+  - Fun one. Spotted part 2 trick quickly. t ~ 1.5h. 4th overall in RSE.  
+    Possibly a more concise way of coding tilts rather than 4 functions, one for each direction?
 
 ### What did I learn?
 
