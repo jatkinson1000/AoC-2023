@@ -44,6 +44,8 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Day 14 :sparkles: :sparkles:
   - Fun one. Spotted part 2 trick quickly. t ~ 1.5h. 4th overall in RSE.  
     Possibly a more concise way of coding tilts rather than 4 functions, one for each direction?
+- Day 15 :sparkles: :sparkles:
+  - Creating a hash map and sorting items in boxes. Dictionaries (ordered by default in py now) made it easy! t ~ 1h. 4th overall in RSE.  
 
 ### What did I learn?
 
@@ -59,3 +61,4 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Dynamic programming: store function inputs and returns in a hash table for quick lookup.  
   Can be done in python using `@cache` decorator from `functools`
 - Strings can be accessed like lists but don't suffer from out of bounds errors - just return `''` if longer than string! Can be exploited to avoid termination due to OoB.
+- `[{}] * n` does NOT create a list of n empty dicts, instead it creates a list of n copies of a single dict! Use `[{} for _ in range(n+1)]` instead!
