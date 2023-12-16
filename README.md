@@ -46,6 +46,9 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
     Possibly a more concise way of coding tilts rather than 4 functions, one for each direction?
 - Day 15 :sparkles: :sparkles:
   - Creating a hash map and sorting items in boxes. Dictionaries (ordered by default in py now) made it easy! t ~ 1h. 4th overall in RSE.  
+- Day 16 :sparkles: :sparkles:
+  - Tracing map round a board. Set myself up well for part 2 by writing for general starting location and direction!
+  t ~ 1.5h. 3rd overall in RSE.  
 
 ### What did I learn?
 
