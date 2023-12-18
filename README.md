@@ -45,15 +45,19 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
   - Fun one. Spotted part 2 trick quickly. t ~ 1.5h. 4th overall in RSE.  
     Possibly a more concise way of coding tilts rather than 4 functions, one for each direction?
 - Day 15 :sparkles: :sparkles:
-  - Creating a hash map and sorting items in boxes. Dictionaries (ordered by default in py now) made it easy! t ~ 1h. 4th overall in RSE.  
+  - Creating a hash map and sorting items in boxes. Dictionaries (ordered by default in py now) made it easy! t ~ 1h. 4th overall in RSE.
 - Day 16 :sparkles: :sparkles:
   - Tracing map round a board. Set myself up well for part 2 by writing for general starting location and direction!
   t ~ 1.5h. 3rd overall in RSE.  
+- Day 17 :sparkles: :sparkles:
+  - Path finding. Goodness this one was hard! Started with Dijkstra but hard to figure out extra conditions. Moved to a variant of A* based on hint but that ran unbelievably slowly until learning that sets are _significantly_ faster to search than lists in python. also some speed gain from using `continue` in loops to avoid extra computation.  
+  t ~ 7h. 3rd overall in RSE!?
 
 ### What did I learn?
 
 - Getting better at thinking more abstract instead of brute force. Maybe?
 - List comprehensions are king.
+- But sets are MUCH faster to search than lists. (d17)
 - Use `strip()` when pulling in text data!
 - Use `range(a, b)` to iterate over things without storing every instance!
 - Use `sort()` to sort in place, and `sorted()` to return sorted list.
@@ -65,3 +69,5 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
   Can be done in python using `@cache` decorator from `functools`
 - Strings can be accessed like lists but don't suffer from out of bounds errors - just return `''` if longer than string! Can be exploited to avoid termination due to OoB.
 - `[{}] * n` does NOT create a list of n empty dicts, instead it creates a list of n copies of a single dict! Use `[{} for _ in range(n+1)]` instead!
+- Instead of giant multi-condition if statements consider single clauses with `continue` to avoid unnecessary computation. (d17)
+- Learnt about [heapq](https://docs.python.org/3/library/heapq.html) from python library for priority queue sorting. (d17)
