@@ -52,6 +52,9 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Day 17 :sparkles: :sparkles:
   - Path finding. Goodness this one was hard! Started with Dijkstra but hard to figure out extra conditions. Moved to a variant of A* based on hint but that ran unbelievably slowly until learning that sets are _significantly_ faster to search than lists in python. also some speed gain from using `continue` in loops to avoid extra computation.  
   t ~ 7h. 3rd overall in RSE!?
+- Day 18 :sparkles: :sparkles:
+  - Tracing and filling a polygon. Didn't fall for the troll move using the colours! Learnt flood fill for part 1, but total re-write for part 2 using shoelace algorithm.  
+  t ~ 1.5-2h. 4rd overall in RSE
 
 ### What did I learn?
 
@@ -71,3 +74,6 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - `[{}] * n` does NOT create a list of n empty dicts, instead it creates a list of n copies of a single dict! Use `[{} for _ in range(n+1)]` instead!
 - Instead of giant multi-condition if statements consider single clauses with `continue` to avoid unnecessary computation. (d17)
 - Learnt about [heapq](https://docs.python.org/3/library/heapq.html) from python library for priority queue sorting. (d17)
+- A* algorithm for path finding (alternative to Dijkstra). (d17)
+- Flood filling a polygon (d18)
+- [Shoelace formula](https://en.wikipedia.org/wiki/Shoelace_formula) for area of a polygon based on coordinates. (d18)
