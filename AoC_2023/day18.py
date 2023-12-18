@@ -65,7 +65,6 @@ def fill_interior(m, seed):
     """
     Flood fill interior of reservoir.
     """
-    # print(seed)
     dir_dict = {
         "D": (0, 1, "v"),
         "R": (1, 0, ">"),
@@ -131,15 +130,16 @@ if __name__ == "__main__":
     dirs, n_holes, col, map = process_input(read_file("data/day18.dat"))
     # dirs, n_holes, col, map = process_input(read_file("data/day18.test"))
 
-    dig_edge(dirs, n_holes, col, map, (500, 500))
-
-    fill_interior(map, (501, 501))
-    ans_one = get_volume(map)
-
     # print(dirs)
     # print(n_holes)
     # print(col)
+    
+    dig_edge(dirs, n_holes, col, map, (500, 500))
+
+    fill_interior(map, (501, 501))
     # print(np.asarray(map))
+    
+    ans_one = get_volume(map)
 
     print(f"Part one answer is {ans_one}")
 
@@ -147,11 +147,13 @@ if __name__ == "__main__":
     # Get inputs
     dirs, n_holes, col, map = process_input(read_file("data/day18.dat"))
     # dirs, n_holes, col, map = process_input(read_file("data/day18.test"))
+    
     cors = get_coords(dirs, n_holes, (1, 1))
     ans_one = get_volume2(cors, n_holes)
     print(f"Part one answer is {int(ans_one)}")
 
     # Part 2
+    # Get inputs
     dirs, n_holes = process_input2(read_file("data/day18.dat"))
     # dirs, n_holes = process_input2(read_file("data/day18.test"))
     # dirs, n_holes = process_input(read_file("data/day18.dat"))
