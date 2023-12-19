@@ -55,6 +55,10 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - Day 18 :sparkles: :sparkles:
   - Tracing and filling a polygon. Didn't fall for the troll move using the colours! Learnt flood fill for part 1, but total re-write for part 2 using shoelace algorithm.  
   t ~ 1.5-2h. 4rd overall in RSE
+- Day 18 :sparkles: :sparkles:
+  - More mappings through rules.  
+    Pretty pleased with this one! Leveraged the power of dicts and lesson learnt from day 5 using ranges.  
+  t ~ 2h. 2nd overall in RSE
 
 ### What did I learn?
 
@@ -62,7 +66,7 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - List comprehensions are king.
 - But sets are MUCH faster to search than lists. (d17)
 - Use `strip()` when pulling in text data!
-- Use `range(a, b)` to iterate over things without storing every instance!
+- Use `range(a, b)` to iterate over things without storing every instance! (d5, d19)
 - Use `sort()` to sort in place, and `sorted()` to return sorted list.
 - `sorted()` can be made more elaborate (like pandas) through the use of a `lambda`.
 - Double and nested list comprehensions can be useful `[[i for i in j] for j in k]` or `[i for j in k for i in j]`.
@@ -77,3 +81,4 @@ Repository for [Advent of Code 2023](https://adventofcode.com/2023)
 - A* algorithm for path finding (alternative to Dijkstra). (d17)
 - Flood filling a polygon (d18)
 - [Shoelace formula](https://en.wikipedia.org/wiki/Shoelace_formula) for area of a polygon based on coordinates. (d18)
+- `range`s are powerful, small, and you can index them! (d19)
